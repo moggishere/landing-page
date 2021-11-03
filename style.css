@@ -7,9 +7,24 @@ body{
 .header{
     display: flex;
     flex-direction: row;
-    padding:16px;
+    padding:4px;
     justify-content: space-around;
     background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    gap: 12px;
+    margin: 24px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
     color: #F9FAF8;
 }
 
@@ -23,6 +38,24 @@ body{
 .intro-inside{
     
     flex-direction: column;
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+.profiles{
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+
+}
+
+.container {
+    text-align:center;
 }
 
 .group-image{
@@ -41,6 +74,7 @@ body{
     background-color: #3882f6;
     border-radius: 5px;
     margin: 80px;
+    padding: 36px;
     display: flex;
     color: #F9FAF8;
     justify-content: center;
@@ -51,6 +85,7 @@ body{
     
     background-color: #1f2937;
     color: #F9FAF8;
+    font-size: 18px;
     display: flex;
     justify-content: center;
 }
