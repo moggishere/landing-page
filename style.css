@@ -7,14 +7,31 @@ body{
 img{
     border-radius: 10px;
     border: 4px solid #5e22a1;
-    
+}
+
+button:hover{
+    color: #3882f6;
+    background-color: #F9FAF8;
+}
+
+.group-image{
+    max-height: ;
+}
+
+.button-top{
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 8px
 }
 
 .header{
     display: flex;
     flex-direction: row;
-    padding:4px;
     justify-content: space-around;
+    padding-left: 80px;
+    padding-right: 80px;
     background-color: #1f2937;
     color: #F9FAF8;
     font-size: 16px;
@@ -24,7 +41,7 @@ img{
 ul{
     display:flex;
     list-style-type: none;
-    gap: 12px;
+    gap: 24px;
     margin: 24px;
     font-size: 16px;
 }
@@ -40,10 +57,23 @@ a{
 }
 
 .intro{
-    margin: 40px;
+    background-color: #1f2937;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 32px;
+    color: #F9FAF8;
+    gap: 40px;
+}
+
+.intro-column{
+    
     flex-direction: column;
-    padding: 16px;
+}
+
+.big-text{
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .intro-inside{
@@ -80,24 +110,68 @@ h2{
 
 .last{
     background-color: #e5e7eb;
+    padding-top: 20px;
+    padding-bottom: 40px;;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.quotation{
+    color: #1f2937;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.big-quote{
+    font-size: 32px;
+    font-weight: lighter;
+    padding-left: 280px;
+    padding-right: 280px;
+    text-align: left;
+}
+
+.cite{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 280px;
+    padding-right: 280px;
 }
 
 .call-to-action{
     background-color: #3882f6;
+    max-height: 50px;
+    gap: 240px;
     border-radius: 5px;
     margin: 80px;
-    padding: 36px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 32px;
     display: flex;
-    color: #F9FAF8;
-    justify-content: center;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-column{
+    color: #F9FAF8;
+    align-self: center;
+}
+
+.buttom-bottom{
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .footer{
-    
-    background-color: #1f2937;
     color: #F9FAF8;
+    background-color: #1f2937;
     font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
     display: flex;
     justify-content: center;
 }
